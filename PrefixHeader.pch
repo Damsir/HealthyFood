@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  KDF
+//
+//  Created by qianfeng on 16/1/7.
+//  Copyright © 2016年 kongdefu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define FIRST_LIST_URL @"http://gsapi.hhcng.com:9005/album/list?"
+
+// http://gsapi.hhcng.com:9005/album/detail?pn=0&aid=1
+#define FIRST_DETAIL_LIST_URL @"http://gsapi.hhcng.com:9005/album/detail?pn=0&"
+
+#define FIRST_DDETAIL_LIST_URL @"http://gsapi.hhcng.com:9005/r/detail?"
+
+//http://gsapi.hhcng.com:9005/home
+#define SECOND_LIST_URL @"http://gsapi.hhcng.com:9005/home"
+
+//cunji
+#define CUNJIURL @"http://api.shs.hzsheteng.com:9005/recipe/04_14/1409739824975.jpg"
+#define YANGFEI @"http://api.shs.hzsheteng.com:9005/recipe/02_15/1409796041475.jpg"
+#define NIANYEFAN @"http://api.shs.hzsheteng.com:9005/recipe/02_22/1409814957553.jpg"
+#define JIAOZI @"http://api.shs.hzsheteng.com:9005/recipe/03_31/1409815824225.jpg"
+#define CAYING @"http://api.shs.hzsheteng.com:9005/recipe/06_07/1409739850163.jpg"
+#define JIAOZIXIAN @"http://api.shs.hzsheteng.com:9005/recipe/04_22/1409814876366.jpg"
+#define LAONIANREN @"http://api.shs.hzsheteng.com:9005/recipe/10_24/1409795765100.jpg"
+#define XIAFANCAI @"http://api.shs.hzsheteng.com:9005/recipe/08_30/1409796057038.jpg"
+#define BAOBAO @"http://api.shs.hzsheteng.com:9005/recipe/02_25/1409814875538.jpg"
+#define DAIKECAI @"http://api.shs.hzsheteng.com:9005/recipe/recipes/44309/cover.jpg"
+#define SOUSHENG @"http://api.shs.hzsheteng.com:9005/recipe/08_11/1409739703038.jpg"
+#define FENGXIONG @"http://api.shs.hzsheteng.com:9005/recipe/06_20/1409795765491.jpg"
+
+#define SECOND_DETAIL_URL @"http://gsapi.hhcng.com:9005/col/recipes?"
+
+#define TIPS_URL @"http://gsapi.hhcng.com:9005/topic/list?pn=0&type=1"
+
+
+#endif /* PrefixHeader_pch */
